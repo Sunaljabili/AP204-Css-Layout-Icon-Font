@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.top-menu{
+    background-color: blue;
+    padding: 30px;
+}
+.top-menu .items .fa-solid {
+color:white;
+font-size: 30px;
+}
+.top-menu .items span{
+    color: white;
+    margin-left: 5px;
+    font-size: 30px;
+}
+.top-menu .button-groups {
+    margin-left: 80%;
+    margin-top: -27px;
+}
+.top-menu .button-groups a{
+ color: white;
+ display: inline-block;
+ text-decoration: none;
+ font-size: 25px;
+
+}
+.nav-elems .logo{
+    margin-top: 20px;
+}
+.nav-elems .logo h1{
+margin-top: 20px;
+margin-left: 15px;
+}
+
+
+.nav-elems{
+width: 100%;
+}
+.nav-elems .menu-elem ul{
+    text-align: center;
+    margin-top: -24px
+}
+.nav-elems .menu-elem ul li{
+    display: inline;
+    
+}
+.nav-elems .menu-elem ul li a{
+text-decoration: none;
+font-size: 24px;
+margin-left: 20px;
+}
+
+.nav-elems .my-buttons{
+padding-left: 80%;
+margin-top: -40px;
+}
+.nav-elems .my-buttons .btn{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 2s;
+    margin-left: 15px;
+    width: 140px;
+}
+.nav-elems .my-buttons .btn-sifarish:hover{
+    transition: 2s;
+    background-color: blue;
+}
+.nav-elems .my-buttons .btn-beyan:hover{
+    background-color: yellow;
+    transition: 2s;
+     transform:  rotate(45deg);
+}
+.nav-elems .my-buttons .btn-sifarish{
+    background-color: orange;
+
+}
+.nav-elems .my-buttons .btn-beyan{
+    background-color: blue;
+}
